@@ -3,13 +3,13 @@
 
 
 void task3(){
-    num class Task3States{
+    enum class Task3States{
         INIT,
         WAIT_TO_TOGGLE_LED
     };
     static Task3States task3State = Task3States::INIT;
     static uint32_t lasTime;
-    static constexpr uint32_t INTERVAL = 166,5;
+    static constexpr uint32_t INTERVAL = 166.5;
     static constexpr uint8_t ledBlue = 5;
     static bool ledStatus = false;
 

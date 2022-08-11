@@ -3,7 +3,7 @@
 
 
 void task4(){
-    num class Task3States{
+    enum class Task4States{
         INIT,
         WAIT_TO_TOGGLE_LED
     };
